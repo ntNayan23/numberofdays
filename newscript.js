@@ -11,5 +11,15 @@ function numberofdays(){
 }
 function reset(){
     document.getElementById('flex-box-result').remove();
-    document.getElementsByClassName('flex-box-container-1').remove
+   
+}
+
+function img_generator(){
+    var name = prompt("enter your name .... :)");
+    if(name== 'nikita'|| name == 'Nikita'||name== 'NIKITA'){
+        var image = document.createElement('img');
+        var div = document.getElementById('img_generator');
+        image.src='Word Art.png';
+        div.appendChild(image);
+    }
 }

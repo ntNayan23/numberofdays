@@ -5,7 +5,8 @@
 }
 .container-1{
     /* border: 3px solid black; */
-    margin: 50vh auto;
+    margin: 10vh auto;
+
     width: 75%;
     text-align: center;
     
@@ -24,5 +25,12 @@
     padding: 10px;
     /* border: 2px solid black; */
     align-items: center;
+    
+}
+.container-2{
+    /* border: 3px solid black; */
+    margin: 10vh auto;
+    width: 75%;
+    text-align: center;
     
 }
